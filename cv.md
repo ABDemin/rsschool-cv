@@ -13,7 +13,7 @@
 
 ## About me
 
-I've always been interesting in IT. After school i had a choice beetween continuing my education in IT or engineering, and had chose engeering. It didn't work well. I've had differnt jobs, but always been thinking abou IT, cause i've thought i would bee good at it. Now i have enough motivation to start diving into new knowledge and eventually find a new job, that will fully satisfy me
+I’ve always been interesting in IT. After school i had a choice between continuing my education in IT or engineering, and had chose engineering. It didn’t work well. I’ve had different jobs, but always been thinking about IT, cause i’ve thought i would bee good at it. Now i have enough motivation to start diving into new knowledge and eventually find a new job, that will fully satisfy me.
 ****
 
 ## My strengths
@@ -47,7 +47,7 @@ int main(void)
     int points = get_int ("How many points did you lose? ");
     if (points < mine)
     {
-        printf ("You lost fewer points tgan me.\n");
+        printf ("You lost fewer points than me.\n");
     }
     else if (points > mine)
     {
