@@ -14,6 +14,7 @@
 ## About me
 
 I’ve always been interesting in IT. After school i had a choice between continuing my education in IT or engineering, and had chose engineering. It didn’t work well. I’ve had different jobs, but always been thinking about IT, cause i’ve thought i would bee good at it. Now i have enough motivation to start diving into new knowledge and eventually find a new job, that will fully satisfy me.
+
 ****
 
 ## My strengths
@@ -64,7 +65,8 @@ int main(void)
 
 ## Work experience
 
-Last 7 years i've been working in PJSC "VimpelCom" (beeline). Current position - Chief Specialist of Claims Handling Department
+Last 7 years i've been working in PJSC "VimpelCom" (beeline). Current position - Chief Specialist of Claims Handling Department.
+
 ****
 
 ## Education
