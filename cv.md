@@ -27,7 +27,7 @@ I’ve always been interesting in IT. After school i had a choice between contin
 
 ## Skills
 
-- HTML/CSS (in progress)
+- HTML5/CSS3 (in progress)
 - JavaScript basics (in progress)
 - Git/GitHub
 - VS Code
