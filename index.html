@@ -3,9 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alexander Demin CV</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
 </head>
 <body>
-    <h1>Title 1</h1>
+    <header class="header">
+        <div class="container"></div>
+
+    </header>
+    <main class="main">
+        <div class="container">
+            <section id="profile" itemscope itemtype="http://schema.org/Organization">
+                <h1 itemprop="name">Alexander Demin</h1>
+            </section>
+            <section id="contacts" itemscope itemtype="http://schema.org/Organization">
+                <h2>Contacts</h2>
+                <ul>
+                    <li>phone: <span itemprop="phone">+7(906)463-5337</span></li>
+                    <li>e-mail: <a itemprop="email" href="mailto:quilberion@gmail.com">quilberion@gmail.com</a></li>
+                    <li>telegram: <a href="http://t.me/quilberion">http://t.me/quilberion</a></li>
+                </ul                    
+            </section>
+            <section id="about">
+                <h2>About me</h2>
+                <p>I’ve always been interesting in IT. After school i had a choice between continuing my education in IT or engineering, and had chose engineering. It didn’t work well. I’ve had different jobs, but always been thinking about IT, cause i’ve thought i would bee good at it. Now i have enough motivation to start diving into new knowledge and eventually find a new job, that will fully satisfy me.</p>
+            </section>
+            <section id="strenghts">
+                <h2>My strenghts</h2>
+                <ul>
+                    <li>communication skills</li>
+                    <li>no fear of challenging tasks</li>
+                    <li>ability to adapt to changes</li>
+                    <li>high teachability</li>
+                </ul>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5/CSS3 (in progress)</li>
+                    <li>JavaScript basics (in progress)</li>
+                    <li>Git/GitHub</li>
+                    <li>VS Code</li>
+                    <li>Windows, MacOS</li>
+                </ul>
+            </section>
+            <section id="projects">
+                <h2>My projects</h2>
+                <ul>
+                    <li>CV in HTML(this page)</li>
+                    <li><a href="https://abdemin.github.io/rsschool-cv/cv">CV in Markdown</a></li>
+                </ul>
+            </section>
+            <section id="code">
+                <h2>Code example</h2>
+                <code>
+                    <pre>
+                    #include <stdio.h>
+                        #include <cs50.h>
+                        
+                        int main(void)
+                        {
+                            const int mine = 2;
+                            int points = get_int ("How many points did you lose? ");
+                            if (points <mine)
+                            {
+                                printf ("You lost fewer points than me.\n");
+                            }
+                            else if (points > mine)
+                            {
+                                printf ("You lost more points than me\n");
+                            }
+                            else
+                            {
+                                printf ("You lost the same number of points as me.\n");
+                            }
+                        }
+                    </pre>
+                </code>
+            </section>
+            <section id="Work">
+                <h2>Work experience</h2>
+                <p>Last 7 years i've been working in PJSC "VimpelCom" (beeline). Current position - Chief Specialist of Claims Handling Department.</p>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>university: North-Caucasian State Technical University</li>
+                    <li>courses: RS School Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                </ul>
+            </section>
+            <section id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>English: B1</li>
+                    <li>Russian: Native</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p><a href="https://github.com/ABDemin">https://github.com/ABDemin</a></p>
+            <p><a href="https://rs.school/js/">https://rs.school/js/</a></p>
+        </div>
+    </footer>
 </body>
 </html>
