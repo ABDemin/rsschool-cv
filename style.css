@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 500px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .nav_align {
+    max-width:fit-content;
+    margin: 0 auto;
+  }
+
+  .header {
+    font-size: 18px;
+  }
+
+  .header1 {
+    font-size: 32px;
+  }
+
+  .name_photo {
+    text-align: center;
+    margin: auto;
+  }
+
+  .nav_td {
+    padding: 0 5px;
+    border: 2px solid black;
+    border-radius: 7%;
+    background-color: wheat;
+  }
+
+  .nav_a {
+    text-decoration: none;
+    color: rgb(32, 39, 236);
+  }
+
+  .main {
+    font-size: 16px;
+  }
+
+  .header2 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .footer {
+    font-size: 18px;
+    text-align: center;
+  }
