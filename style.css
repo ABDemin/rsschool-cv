@@ -39,7 +39,6 @@ body {
 }
 
 .header {
-  border: 1px solid red;
   margin: 0;
 }
 
@@ -70,7 +69,6 @@ body {
 }
 
 .main {
-  border: 1px solid red;
   margin: 0;
   padding: 20px;
 }
@@ -113,9 +111,10 @@ h1 {
 
   font-family: ClearSans, sans-serif;
   text-decoration: none;
-  transition: color 0.3s;
 
-  color: #5f7bcd
+  color: #5f7bcd;
+
+  transition: color 0.3s;
 }
 
 .section-link:hover {
@@ -123,6 +122,35 @@ h1 {
 }
 
 .footer {
-  border: 1px solid red;
   margin: 0;
+  padding: 0 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+
+  font-family: ClearSans, sans-serif;
+  font-size: 16px;
+
+  color: #5f7bcd;
+}
+
+.footer-link {
+  font-family: ClearSans, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+
+  color: #5f7bcd;
+
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: burlywood;
 }
