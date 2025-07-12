@@ -13,6 +13,11 @@
   font-weight: bold;
 }
 
+:root {
+  --main-color: #5f7bcd;
+  --hover-color: burlywood;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -53,13 +58,13 @@ body {
 
   font-family: ClearSans, sans-serif;
   text-decoration: none;
-  color: #5f7bcd;
+  color: var(--main-color);
 
   transition: color 0.3s;
 }
 
 .navigation-link:hover {
-  color: burlywood;
+  color: var(--hover-color);
 }
 
 .main {
@@ -86,14 +91,14 @@ h1 {
 
   font-family: ClearSans, sans-serif;
   font-size: 45px;
-  color: #5f7bcd;
+  color: var(--main-color);
 }
 
 .profile p {
   text-align: center;
   font-family: ClearSans, sans-serif;
   font-size: 18px;
-  color: #5f7bcd;
+  color: var(--main-color);
 }
 
 .round-image {
@@ -116,7 +121,7 @@ h1 {
   font-size: 18px;
   text-transform: uppercase;
 
-  color: #5f7bcd;
+  color: var(--main-color);
 }
 
 .section-title::before {
@@ -128,7 +133,7 @@ h1 {
   width: 10%;
   height: 10px;
 
-  background: #5f7bcd;
+  background: var(--main-color);
 }
 
 .section-title::after {
@@ -140,7 +145,7 @@ h1 {
   width: 90%;
   height: 4px;
 
-  background: #5f7bcd;
+  background: var(--main-color);
 }
 
 .section-link {
@@ -149,13 +154,13 @@ h1 {
   font-family: ClearSans, sans-serif;
   text-decoration: none;
 
-  color: #5f7bcd;
+  color: var(--main-color);
 
   transition: color 0.3s;
 }
 
 .section-link:hover {
-  color: burlywood;
+  color: var(--hover-color);
 }
 
 .footer {
@@ -175,7 +180,7 @@ h1 {
   font-family: ClearSans, sans-serif;
   font-size: 16px;
 
-  color: #5f7bcd;
+  color: var(--main-color);
 }
 
 .footer-link {
@@ -183,11 +188,11 @@ h1 {
   font-size: 16px;
   text-decoration: none;
 
-  color: #5f7bcd;
+  color: var(--main-color);
 
   transition: color 0.3s;
 }
 
 .footer-link:hover {
-  color: burlywood;
+  color: var(--hover-color);
 }
