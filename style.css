@@ -59,9 +59,9 @@ body {
 
   font-family: ClearSans, sans-serif;
   text-decoration: none;
-  transition: color 0.3s;
-
   color: #5f7bcd;
+
+  transition: color 0.3s;
 }
 
 .navigation-link:hover {
@@ -79,16 +79,32 @@ body {
 }
 
 .profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
   width: 100%;
+  padding: 20px 0;
 }
 
 h1 {
   margin: 0 auto;
 
   font-family: ClearSans, sans-serif;
-  font-size: 40px;
-
+  font-size: 45px;
   color: #5f7bcd;
+}
+
+.profile p {
+  text-align: center;
+  font-family: ClearSans, sans-serif;
+  font-size: 18px;
+  color: #5f7bcd;
+}
+
+.round-image {
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .section {
@@ -99,11 +115,38 @@ h1 {
 }
 
 .section-title {
+  position: relative;
+  margin-bottom: 25px;
+
   font-family: ClearSans, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
 
   color: #5f7bcd;
+}
+
+.section-title::before {
+  content: '';
+
+  position: absolute;
+  left: 0;
+  bottom: -13px;
+  width: 10%;
+  height: 10px;
+
+  background: #5f7bcd;
+}
+
+.section-title::after {
+  content: '';
+
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 90%;
+  height: 4px;
+
+  background: #5f7bcd;
 }
 
 .section-link {
